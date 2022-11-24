@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    /* height: 80px; */
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+   
+    display: flex;
+}
+.nav-left span{
+    font-size: 35px;
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-left ul {
+    
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 25px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+
+.content {
+    display: flex;
+    height: 700px;
+    /* width: 100%; */
+    /* background-color: antiquewhite; */
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    flex-direction: column;
+    font-family: var(--font3);
+    background-image: url(../img/evolution-3885331_1920.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    opacity: 0.80;
+    
+}
+.text-content{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+
+}
+.text-content p{
+    color: white;
+    font-size: 35px;
+    width: 200px;
+
+}
+
+
+.home-articles{
+    padding: 18px;
+    margin-top: 25px;
+    /* background-color: aliceblue; */
+    
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article img{
+    width: 400px;
+    height: 200px;
+}
+
+.home-article-content{
+    align-self: top;
+    /* padding: 25px; */
+    padding-left: 60px;
+}
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+/* .home-articles{} */
+.footer {
+    height: 50px;
+    /* background-color: rgb(54, 54, 53);  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
